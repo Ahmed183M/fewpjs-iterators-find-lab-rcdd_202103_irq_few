@@ -9,3 +9,5 @@ function superbowlWin(array){
     console.log(item.year);
   });
 }
+
+superbowlWin()
