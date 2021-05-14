@@ -6,6 +6,6 @@ function testFunc() {
 
 function superbowlWin(array){
   array.find(item=> {
-    if(item.result == "W") return item.year;
+    if(item.result == "W") console.log(item.year);
   });
 }
