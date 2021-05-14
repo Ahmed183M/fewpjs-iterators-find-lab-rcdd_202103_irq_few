@@ -5,15 +5,8 @@ function testFunc() {
 }
 
 function superbowlWin(array){
+  let result;
   array.forEach((item)=>{
     if(item.result == "W") return item.year;
   })
 }
-
-const record = [
-  {year: "2018", result: "L"},
-  {year: "2017", result: "W"},
-  {year: "2016", result: "N/A"}
-]
-    
-superbowlWin(record);
