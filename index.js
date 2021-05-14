@@ -5,8 +5,8 @@ function testFunc() {
 }
 
 function superbowlWin(array){
-  array.forEach(e=>{
-    if(e.result == "W") console.log(e.year);
+  array.forEach((item)=>{
+    if(item.result == "W") console.log(item.year);
   })
 }
 
